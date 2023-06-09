@@ -1,0 +1,1 @@
+<a class="has-arrow" href="{{ route('category.index') }}" aria-expanded="false"><i class="la la-pencil"></i><span class="hide-menu">Category</span></a>
