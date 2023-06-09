@@ -1,9 +1,9 @@
-@extends('master')
+@extends('layouts.master')
  
 @section('title', 'List Artikel')
  
 @section('content')
-@include('layouts.backend.include.message')
+@include('layouts.message')
 <div class="container">
     <div class="card">
         <div class="card-header">

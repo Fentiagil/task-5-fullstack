@@ -37,9 +37,7 @@ class ArticleController extends Controller
             'title.required' => 'Judul harus diisi',
             'description.required' => 'Deskripsi harus diisi',
             'images.required' => 'Gambar harus diupload',
-            'cover.required' => 'Cover Gambar harus diupload',
             'images.mimes' => 'Gambar harus png,jpg,jpeg',
-            'cover.mimes' => 'Cover Gambar harus png,jpg,jpeg',
             'status.required' => 'Status harus dipilih'
         ]);
  
@@ -52,7 +50,6 @@ class ArticleController extends Controller
             'image' => $image,
             'status' => $request->status,
             'category_id' => $request->category_id,
-            'user_id' => $request->user()->id,
             'slug' => Str::slug($request->title, '-')
         ]);
  
@@ -119,7 +116,6 @@ class ArticleController extends Controller
             'image' => $image,
             'status' => $request->status,
             'category_id' => $post->category_id,
-            'user_id' => $request->user()->id,
             'slug' => Str::slug($request->title, '-')
         ]);
  

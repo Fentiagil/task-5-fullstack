@@ -19,6 +19,8 @@
    <link rel="stylesheet" href="{{ asset('backend/assets/css/icons/line-awesome.min.css') }}">
    <!-- ======================= DRIP ICONS ===================================-->
    <link rel="stylesheet" href="{{ asset('backend/assets/css/icons/dripicons.min.css') }}">
+   <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <!-- ======================= MATERIAL DESIGN ICONIC FONTS =================-->
    <link rel="stylesheet" href="{{ asset('backend/assets/css/icons/material-design-iconic-font.min.css') }}">
    <!-- ======================= PAGE VENDOR STYLES ===========================-->

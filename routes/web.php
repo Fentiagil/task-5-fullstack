@@ -16,7 +16,7 @@ use App\Http\Controllers\ArticleController;
 */
 
 Route::get('/', function () {
-    return view('layouts.master');
+    return view('home');
 });
 
 Route::resource('category',CategoryController::class);

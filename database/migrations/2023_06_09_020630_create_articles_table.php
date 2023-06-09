@@ -20,7 +20,6 @@ return new class extends Migration
            $table->text('image');
            $table->string('status');
            $table->unsignedBigInteger('category_id');
-           $table->unsignedBigInteger('user_id');
            $table->timestamps();
        });
    }
