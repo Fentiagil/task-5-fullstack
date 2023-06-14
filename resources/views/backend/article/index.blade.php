@@ -31,7 +31,10 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td style="white-space: nowrap;">{{ $post->title }}</td>
-                            <td>{{ $post->category->title }}</td>
+                            <td>@if ($post->category)
+                                    {{ $post->category->title }}
+                                @endif
+                            </td>
                             <td>{!! substr($post->content, 0, 60) !!}...</td>
                             <td>
                                 <span class="badge badge-{{ $post->status == 'inactive' ? 'danger' : 'success' }}">
